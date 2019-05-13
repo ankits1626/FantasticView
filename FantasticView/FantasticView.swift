@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-class FantasticView : UIView {
+public class FantasticView : UIView {
     let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
     var colorCounter = 0
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         
         // The Main Stuff
@@ -31,4 +31,6 @@ class FantasticView : UIView {
         
         // You don't need to implement this
     }
+    
+    
 }
